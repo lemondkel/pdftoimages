@@ -6,7 +6,7 @@ import java.util.List;
  */
 public class Example {
 	public static void main(String[] args) throws Exception {
-		File pdf = new File("D:/201708/★ 과제수행계획서 ★.pdf");
+		File pdf = new File("D:/20180222/test.pdf");
 		List<File> imageList = ConvertUtil.convertPdfToImage(pdf); // images files
 	}
 }
