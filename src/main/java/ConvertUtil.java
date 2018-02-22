@@ -30,7 +30,9 @@ class ConvertUtil {
 			// default image files path: original file path
 			// if necessary, file.getParent() + "/" => another path
 			File fileTemp = new File(file.getParent() + "/" + (i + 1) + ".jpg"); // jpg or png
-			BufferedImage image = renderer.renderImageWithDPI(i, 200);  // 해상도 조절
+			BufferedImage image = renderer.renderImageWithDPI(i, 200);
+			// 200 is sample dots per inch.
+			// if necessary, change 200 into another integer.
 			ImageIO.write(image, "JPEG", fileTemp); // JPEG or PNG
 			fileList.add(fileTemp);
 		}
