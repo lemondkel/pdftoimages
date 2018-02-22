@@ -1,7 +1,7 @@
 # PDF To Images
 This method renders PDF files and draws them into image file list objects, a different concept from Apache POI. 
 
-An example is made based on Apache Pdfbox.
+An example is made based on Apache pdfbox.
 
 ## How to use?
 [1] include Add pdfbox dependencies to the pom.xml.
@@ -15,7 +15,7 @@ An example is made based on Apache Pdfbox.
 		</dependency>
 	</dependencies>
 
-[2] Leverage ConvertPdfToImage function of ConverbVtil.
+[2] Leverage ConvertPdfToImage function of ConvertUtil.
 
 	File pdf = new File("D:/20180222/test.pdf");
     List<File> imageList = ConvertUtil.convertPdfToImage(pdf); // images files
