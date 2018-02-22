@@ -24,23 +24,27 @@ For example, we used the Apple _ Environmental _ Responsibility_Report_2007.pdf.
 ## [1] Slide 1
 This is Original Capture (PDF capture to PNG)
 ![ex_screenshot](src/main/resources/img_readme/pdf-1.PNG)
+
 This is Rendered image (JPG)
 ![ex_screenshot](src/main/resources/img_readme/1.jpg)
 
 ## [2] Slide 5
 This is Original Capture (PDF capture to PNG)
 ![ex_screenshot](src/main/resources/img_readme/pdf-5.PNG)
+
 This is Rendered image (JPG)
 ![ex_screenshot](src/main/resources/img_readme/5.jpg)
 
 ## [3] Slide 42
 This is Original Capture (PDF capture to PNG)
 ![ex_screenshot](src/main/resources/img_readme/pdf-42.PNG)
+
 This is Rendered image (JPG)
 ![ex_screenshot](src/main/resources/img_readme/42.jpg)
 
 ## [3] Slide 52
 This is Original Capture (PDF capture to PNG)
 ![ex_screenshot](src/main/resources/img_readme/pdf-52.PNG)
+
 This is Rendered image (JPG)
 ![ex_screenshot](src/main/resources/img_readme/52.jpg)
