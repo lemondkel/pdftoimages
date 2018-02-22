@@ -1,5 +1,7 @@
 # PDF To Images
-This method renders PDF files and draws them into image file list objects, a different concept from Apache POI. An example is made based on Apache Pdfbox.
+This method renders PDF files and draws them into image file list objects, a different concept from Apache POI. 
+
+An example is made based on Apache Pdfbox.
 
 ## How to use?
 [1] include Add pdfbox dependencies to the pom.xml.
@@ -19,7 +21,7 @@ This method renders PDF files and draws them into image file list objects, a dif
     List<File> imageList = ConvertUtil.convertPdfToImage(pdf); // images files
     
 # Example
-For example, we used the Apple _ Environmental _ Responsibility_Report_2007.pdf.
+For example, we used the 'Apple _ Environmental _ Responsibility_Report_2007.pdf'.
 
 ## [1] Slide 1
 This is Original Capture (PDF capture to PNG)
