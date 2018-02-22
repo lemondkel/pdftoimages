@@ -4,7 +4,7 @@ This method renders PDF files and draws them into image file list objects, a dif
 An example is made based on [Apache PDFBox](https://pdfbox.apache.org/).
 
 ## How to use?
-[1] include Add PDFBox dependency to the pom.xml.
+[1] include [Apache PDFBox](https://pdfbox.apache.org/) dependency to the pom.xml.
 
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
